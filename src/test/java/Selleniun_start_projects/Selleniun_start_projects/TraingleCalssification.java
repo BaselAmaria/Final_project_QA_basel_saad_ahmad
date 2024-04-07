@@ -36,7 +36,7 @@ public class TraingleCalssification {
 		assertNotEquals(result, expectedValue);
 		browser.close();
 	}
- //
+
 	@Test
 	public void T2() {
 		browser.findElement(By.name("side1")).sendKeys("13");
